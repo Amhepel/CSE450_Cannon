@@ -1,0 +1,19 @@
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\bin\Debug\le\HERO Simple Application2.exe
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\bin\Debug\be\HERO Simple Application2.exe
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\bin\Debug\le\HERO Simple Application2.pdb
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\bin\Debug\be\HERO Simple Application2.pdb
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\bin\Debug\HERO Simple Application2.exe
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\bin\Debug\HERO Simple Application2.pdb
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\bin\Debug\le\HERO Simple Application2.pe
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\bin\Debug\le\HERO Simple Application2.pdbx
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\bin\Debug\be\HERO Simple Application2.pe
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\bin\Debug\be\HERO Simple Application2.pdbx
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\obj\Debug\HERO Simple Application2.csprojAssemblyReference.cache
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\obj\Debug\TinyCLR_DebugReferences.cache
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\obj\Debug\HERO Simple Application2.csproj.CoreCompileInputs.cache
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\obj\Debug\HERO Simple Application2.exe
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\obj\Debug\HERO Simple Application2.pdb
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\obj\Debug\be\HERO Simple Application2.pe
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\obj\Debug\be\HERO Simple Application2.pdbx
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\obj\Debug\le\HERO Simple Application2.pe
+C:\Users\mhepel\source\repos\HERO Simple Application2\HERO Simple Application2\obj\Debug\le\HERO Simple Application2.pdbx
