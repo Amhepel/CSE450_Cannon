@@ -140,21 +140,19 @@ namespace HERO_XInput_Gampad_Example
                 /* update the Talon using the shoulder analog triggers */
                 //_tal.Set(ControlMode.PercentOutput, (_sticks[5] - _sticks[4]) * 0.60f);
 
-                if (_sticks[4] == 1)
+                if (_sticks[4] == 1) // Only enable tal
                 {
                     _tal.Set(0, (_sticks[3] - _sticks[2]) * 0.60f);
                 }
-                /*
-                else if(_sticks[5] == 1)
-                {
-                   _tal.Set(0, (_sticks[5] - _sticks[4]) * 0.60f);
-                }
-                */
-                else
+                else if (_sticks[5] == 1) // only enable tal2
                 {
                     _tal2.Set(0, (_sticks[2] - _sticks[3]) * 0.60f);
                 }
-                 _tal.Set(0, (_sticks[3] - _sticks[2]) * 0.60f);
+                else // Default enable both when triggers not pressed
+                {
+                    _tal.Set(0, (_sticks[3] - _sticks[2]) * 0.60f);
+                    _tal2.Set(0, (_sticks[2] - _sticks[3]) * 0.60f);
+                }          
 
                 /* fire some solenoids based on buttons */
                 _driver.Set(1, _buttons[1]);
