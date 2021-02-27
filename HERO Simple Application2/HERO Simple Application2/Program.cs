@@ -1,4 +1,4 @@
-﻿//using System;
+//using System;
 //using System.Threading;
 //using Microsoft.SPOT;
 //using Microsoft.SPOT.Hardware;
@@ -93,6 +93,7 @@ namespace HERO_XInput_Gampad_Example
         GameController _gamepad = new GameController(UsbHostDevice.GetInstance(0));
 
         TalonSRX _tal = new TalonSRX(1);
+        TalonSRX _tal2 = new TalonSRX(2);
 
         /* Create the DriverModule to control some LEDs or solenoids */
         CTRE.Gadgeteer.Module.DriverModule _driver = new CTRE.Gadgeteer.Module.DriverModule(CTRE.HERO.IO.Port5);
@@ -114,6 +115,7 @@ namespace HERO_XInput_Gampad_Example
             UsbHostDevice.GetInstance(0).SetSelectableXInputFilter(UsbHostDevice.SelectableXInputFilter.XInputDevices);
             /* Factory Default all hardware to prevent unexpected behaviour */
             _tal.ConfigFactoryDefault();
+            _tal2.ConfigFactoryDefault();
             while (true)
             {
                 if (_gamepad.GetConnectionStatus() == UsbDeviceConnection.Connected)
@@ -137,7 +139,22 @@ namespace HERO_XInput_Gampad_Example
 
                 /* update the Talon using the shoulder analog triggers */
                 //_tal.Set(ControlMode.PercentOutput, (_sticks[5] - _sticks[4]) * 0.60f);
-                _tal.Set(0, (_sticks[5] - _sticks[4]) * 0.60f);
+
+                if (_sticks[4] == 1)
+                {
+                    _tal.Set(0, (_sticks[3] - _sticks[2]) * 0.60f);
+                }
+                /*
+                else if(_sticks[5] == 1)
+                {
+                   _tal.Set(0, (_sticks[5] - _sticks[4]) * 0.60f);
+                }
+                */
+                else
+                {
+                    _tal2.Set(0, (_sticks[2] - _sticks[3]) * 0.60f);
+                }
+                 _tal.Set(0, (_sticks[3] - _sticks[2]) * 0.60f);
 
                 /* fire some solenoids based on buttons */
                 _driver.Set(1, _buttons[1]);
